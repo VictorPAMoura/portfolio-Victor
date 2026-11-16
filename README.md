@@ -16,9 +16,9 @@ Portfólio acadêmico criado para apresentar meu perfil, meus projetos e minhas 
 
 ## Link do site publicado
 
-**GitHub Pages:** COLE_AQUI_O_LINK_DO_SITE
+**GitHub Pages:** (https://victorpamoura.github.io/portfolio-Victor/?utm_source=chatgpt.com)
 
-**Repositório:** COLE_AQUI_O_LINK_DO_REPOSITORIO
+**Repositório:** (https://github.com/VictorPAMoura/portfolio-Victor?utm_source=chatgpt.com)
 
 ## Funcionamento do projeto
 
