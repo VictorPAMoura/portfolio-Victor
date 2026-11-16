@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio acadêmico de Victor, estudante de Desenvolvimento de Sistemas e interessado em QA.">
+  <title>Victor | Portfólio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root { --fundo:#0b1020; --painel:#171f35; --destaque:#70e0cc; --texto:#eaf0ff; }
+    html { scroll-behavior:smooth; scroll-padding-top:75px; }
+    body { background:var(--fundo); color:var(--texto); font-family:system-ui,Arial,sans-serif; }
+    .navbar { background:#10172a !important; }
+    .navbar-brand, .nav-link { color:#fff !important; }
+    .nav-link:hover { color:var(--destaque) !important; }
+    .hero { padding:110px 0 85px; background:radial-gradient(circle at 85% 10%,#24466a 0%,transparent 45%); }
+    .destaque { color:var(--destaque); }
+    .btn-custom { background:var(--destaque); color:#0b1020; border:0; font-weight:700; }
+    .btn-custom:hover { background:#a6f3e6; }
+    section { padding:65px 0; }
+    .card { background:var(--painel); color:var(--texto); border:1px solid #35415c; height:100%; transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease; }
+    .card:hover { transform:translateY(-9px); box-shadow:0 14px 28px #0006; border-color:var(--destaque); }
+    .badge-habilidade { background:#233c4a; color:#a7fff0; padding:10px 15px; border-radius:25px; display:inline-block; margin:5px; }
+    .secao-alternada { background:#111a2c; }
+    footer { border-top:1px solid #35415c; padding:24px; text-align:center; }
+    a { color:#93eadb; }
+    a:hover { color:#c4fff5; }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#inicio">&lt;/&gt; Victor</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header id="inicio" class="hero">
+  <div class="container text-center">
+    <p class="text-uppercase destaque fw-bold">Portfólio acadêmico</p>
+    <h1 class="display-4 fw-bold">Olá! Eu sou <span class="destaque">Victor</span>.</h1>
+    <p class="lead mx-auto" style="max-width:720px">Estudante de Desenvolvimento de Sistemas, explorando programação e qualidade de software (QA).</p>
+    <a class="btn btn-custom btn-lg mt-3" href="#projetos">Conheça meus projetos</a>
+  </div>
+</header>
+<main>
+  <section id="perfil">
+    <div class="container"><h2 class="mb-4">Sobre mim</h2><p>Sou estudante do curso Técnico em Desenvolvimento de Sistemas da ETEC. Tenho interesse em desenvolvimento web, testes de software e aprendizado contínuo. Este portfólio reúne projetos e exercícios realizados durante minha formação.</p></div>
+  </section>
+  <section id="projetos" class="secao-alternada">
+    <div class="container"><h2 class="mb-4">Meus projetos</h2><div class="row g-4">
+      <div class="col-md-4"><article class="card"><div class="card-body"><h3 class="h5 destaque">🌐 Página de favoritos</h3><p>Atividade acadêmica de criação de uma página web com HTML, imagens e conteúdo multimídia.</p><span class="small">HTML • CSS</span></div></article></div>
+      <div class="col-md-4"><article class="card"><div class="card-body"><h3 class="h5 destaque">🗂️ Modelagem de dados</h3><p>Exercícios de diagramas e organização de informações para sistemas.</p><span class="small">DER • Banco de dados</span></div></article></div>
+      <div class="col-md-4"><article class="card"><div class="card-body"><h3 class="h5 destaque">🔍 Estudos de QA</h3><p>Prática de cenários de teste, validação de campos, testes positivos e negativos e registro de bugs.</p><span class="small">Testes de software</span></div></article></div>
+    </div></div>
+  </section>
+  <section id="habilidades"><div class="container"><h2 class="mb-4">Habilidades e aprendizados</h2><span class="badge-habilidade">HTML</span><span class="badge-habilidade">CSS</span><span class="badge-habilidade">Bootstrap</span><span class="badge-habilidade">Banco de dados</span><span class="badge-habilidade">Fundamentos de QA</span></div></section>
+  <section id="contato" class="secao-alternada"><div class="container"><h2 class="mb-4">Contato</h2><p>Quer conhecer mais sobre meus estudos e projetos? Visite meu perfil no GitHub.</p><a id="github-link" class="btn btn-custom" href="https://github.com/" target="_blank" rel="noopener noreferrer">Visitar GitHub</a><p class="small mt-3 text-white-50">Após criar o repositório, personalize o link acima com seu usuário do GitHub.</p></div></section>
+</main>
+<footer>© 2026 Victor • Portfólio acadêmico desenvolvido com HTML, CSS e Bootstrap.</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
